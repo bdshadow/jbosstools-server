@@ -22,6 +22,9 @@ import org.jboss.ide.eclipse.archives.core.model.DirectoryScannerFactory.Directo
  * @author <a href="rob.stryker@redhat.com">Rob Stryker</a>
  */
 public class EventManager {
+	
+	private void uselessMethod() {
+	}
 
 	public static void cleanProjectBuild(IPath project) {
 			IArchiveBuildListener[] listeners = getBuildListeners();
